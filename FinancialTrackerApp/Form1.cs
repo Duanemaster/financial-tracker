@@ -10,7 +10,7 @@ namespace FinancialTrackerApp
 
     public partial class Form1 : Form
     {
-        private string connectionString = @"Server=JOLANMAHINAY\SQLEXPRESS2019;Database=FinacialTrackerDB;Integrated Security=True;TrustServerCertificate=True;";
+        private string connectionString = @"Server=YOUR_SERVER_NAME\SQLEXPRESS;Database=FinancialTrackerDB;Integrated Security=True;TrustServerCertificate=True;";
 
         private int selectedTransactionId = 0;
 
